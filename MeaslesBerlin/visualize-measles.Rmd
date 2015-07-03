@@ -62,6 +62,16 @@ plot(aggregate(measles2011ao,by="unit"),legend.opts=NULL,
      ylab="No. reported",xlab="Time (weeks)")
 ```
 
+```{r}
+par(mar=c(3,3,0,0))
+###Illustrate individual series
+plot(measles2011ao,legend.opts=NULL,
+     xaxis.tickFreq=list("%W"=atChange,"%m"=atChange,"%Y"=atChange),
+                xaxis.labelFreq=list("%Y"=atMedian),xaxis.labelFormat="%Y",
+     ylab="No. reported",xlab="Time (weeks)")
+
+```
+
 ```{r eval=FALSE}
 ###Create animation -- 
 library("animation")
