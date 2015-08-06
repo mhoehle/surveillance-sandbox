@@ -1,10 +1,7 @@
-# MeaslesBerlin
+# R Code for JSS Paper Salmon et al. (2015) about the surveillance package
 
-R code mimicking the analysis performed in
-[Wie-sich-die-Masern-in-Berlin-ausbreiten.html](http://www.morgenpost.de/berlin/article137810495/Wie-sich-die-Masern-in-Berlin-ausbreiten.html)
-using the R package
+- More details about the the R package
 [surveillance](https://surveillance.r-forge.r-project.org).
 
-See the [visualize-measles.html](visualize-measles.html) file or its
-markdown version for the code. [index.html](index.html) contains an
-animation.
+- A [preprint](http://arxiv.org/abs/1411.1292) preprint of the
+manuscript is available online.
