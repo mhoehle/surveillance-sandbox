@@ -1,10 +1,10 @@
 # MeaslesBerlin
 
-R code mimicking the analysis performed in
-[Wie-sich-die-Masern-in-Berlin-ausbreiten.html](http://www.morgenpost.de/berlin/article137810495/Wie-sich-die-Masern-in-Berlin-ausbreiten.html)
+R code mimicking the analysis performed in the data visualization article
+[How Measles Spread in Berlin](http://www.morgenpost.de/berlin/article137810495/Wie-sich-die-Masern-in-Berlin-ausbreiten.html) 
 using the R package
 [surveillance](https://surveillance.r-forge.r-project.org).
-[SurvStat@RKI](https://survstat.rki.de/) data on the large 2015 measles outbreak in the districts of Berlin is visualized.
+[SurvStat@RKI](https://survstat.rki.de/) data on the large 2015 measles outbreak in the districts of Berlin is visualized in spatio-temporal fashion.
 
 See the [visualize-measles.html](visualize-measles.html) file or its
 markdown version for the code. The file [index.html](index.html) contains an
