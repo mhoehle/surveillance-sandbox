@@ -1,7 +1,8 @@
+
 ---
 title: "Measles in Berlin Visualization"
 author: "Michael Höhle"
-date: "4 Jul 2015"
+date: "06 Mar 2016"
 output: html_document
 ---
 
@@ -73,8 +74,16 @@ plot(measles2011ao,legend.opts=NULL,
 ```
 
 ```{r eval=FALSE}
-###Create animation -- 
+###Create animation --
 library("animation")
 saveHTML(animate(measles2011ao))
 ```
 
+```{r eval=TRUE}
+###Create animation --
+library("animation")
+
+which <- (epoch(measles) > as.Date("2014-10-01")) & (epoch(measles) < as.Date("2015-10-01"))
+measles_sts <- new("sts",observed=survstat[which,-1],epoch=as.numeric(dates[which]),map=bezirke, epochAsDate=TRUE)
+saveGIF(animate(measles_sts))
+```
