@@ -87,3 +87,5 @@ which <- (epoch(measles) > as.Date("2014-10-01")) & (epoch(measles) < as.Date("2
 measles_sts <- new("sts",observed=survstat[which,-1],epoch=as.numeric(dates[which]),map=bezirke, epochAsDate=TRUE)
 saveGIF(animate(measles_sts))
 ```
+
+![spatio temporal animation](animation.gif)
