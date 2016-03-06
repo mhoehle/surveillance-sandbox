@@ -7,7 +7,10 @@ output: html_document
 ---
 
 This is R code mimicking the analysis performed in [Wie-sich-die-Masern-in-Berlin-ausbreiten.html](http://www.morgenpost.de/berlin/article137810495/Wie-sich-die-Masern-in-Berlin-ausbreiten.html)
-using the R package [surveillance](https://surveillance.r-forge.r-project.org).
+using the R package [surveillance](http://surveillance.r-forge.r-project.org). The manuscript [*Spatio-Temporal Analysis of Epidemic Phenomena Using
+the R Package surveillance*](http://arxiv.org/abs/1411.0416), to appear
+in the Journal of Statistical Software, contains further details about how to use the package.
+
 
 
 ```{r}
